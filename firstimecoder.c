@@ -13,7 +13,7 @@ int add(int a, int b) {
 
 int main() {
     // Two slashes like this is a comment. It is ignored by the compiler.
-    
+
     // Data types examples
     int age = 22;                    // integer
     float pi = 3.14159f;             // floating-point number
@@ -72,17 +72,21 @@ int main() {
     } while (left > 0);
 
     // Example of both of the above (using if and loop)
-    int intSum = 0;
+    int sum_of_integers = 0;
     int a = 5;
     int b = 10;
     
-    int anything_this_is_a_label = 10;
-    while (anything_this_is_a_label > 0){
-        intSum = intSum + b;
-        anything_this_is_a_label = anything_this_is_a_label - 1;
+    // This here is just a counter for how many times we want to run this loop
+    int counter = 10;
+    // A while loop keeps running the code between the CURLY braces {} until the condition in the brackets () is FALSE.
+    while (counter > 0){
+        // We are ASSSIGNING a new value to sum_of_integers here by using the = symbol. In order to increase the existing value of sum_of_integers, we add a new value to sum_of_integers, and assign that whole thing to itself.
+        sum_of_integers = sum_of_integers + b;
+        // We must decrease the counter, or we will have an infinite loop
+        counter = counter - 1;
     }
-    
-    printf("intSum (int) = %d\n", intSum);
+    // This here is just to print the values of our variables.
+    printf("sum_of_integers (int) = %d\n", sum_of_integers);
     printf("b (int) = %d\n", b);
     printf("a (int) = %d\n", a);
   
