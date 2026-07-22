@@ -63,6 +63,8 @@ int main() {
     printf("name (char*) = %s\n", name);
 
     /**
+     * Part 4: If statements
+     * 
      * If statements allow for running code only if some condition is met.
      * You can see below that it consists of a declaration of "if", followed by
      * brackets (), which house the condition that it is checking, then followed by
@@ -96,6 +98,8 @@ int main() {
     }
 
     /*
+    Part 5: Loops
+
     Loops allow us to do something multiple times. There are two kinds of loops,
     for loops and while loops.
 
@@ -161,5 +165,17 @@ int main() {
     // This here is just to print the values of our variables.
     printf("Sum of even numbers (int) = %d\n", sum_of_integers);
 
+
+    // Return ends the function, so it's usually at the end here.
     return 0;
+
+    /**
+     * Comments don't get run anyways, so comment being here doesn't affect anything.
+     * 
+     * Feel free to experiment and change anything in this file! If anything breaks,
+     * you can also undo back to the start, or reset back to the commit.
+     * 
+     * Don't be shy with running the code, it's basically free, and running your code
+     * often lets you catch any glaring issues with the code early. 
+     */
 }
