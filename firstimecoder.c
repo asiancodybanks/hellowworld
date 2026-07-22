@@ -12,6 +12,8 @@ int add(int a, int b) {
 }
 
 int main() {
+    // Two slashes like this is a comment. It is ignored by the compiler.
+    
     // Data types examples
     int age = 22;                    // integer
     float pi = 3.14159f;             // floating-point number
@@ -69,23 +71,21 @@ int main() {
         left--;
     } while (left > 0);
 
-    // Float vs double precision example
-    printf("\n-- Float vs Double Precision --\n");
-    float floatValue = 0.1f;
-    double doubleValue = 0.1;
-    float floatSum = 0.0f;
-    double doubleSum = 0.0;
-
-    for (int i = 0; i < 10; i++) {
-        floatSum += floatValue;
-        doubleSum += doubleValue;
+    // Example of both of the above (using if and loop)
+    int intSum = 0;
+    int a = 5;
+    int b = 10;
+    
+    int anything_this_is_a_label = 10;
+    while (anything_this_is_a_label > 0){
+        intSum = intSum + b;
+        anything_this_is_a_label = anything_this_is_a_label - 1;
     }
-
-    printf("float  0.1f * 10 = %.9f\n", floatSum);
-    printf("double 0.1  * 10 = %.17g\n", doubleSum);
-    printf("float sum equals 1.0? %s\n", floatSum == 1.0f ? "yes" : "no");
-    printf("double sum equals 1.0? %s\n", doubleSum == 1.0 ? "yes" : "no");
-
+    
+    printf("intSum (int) = %d\n", intSum);
+    printf("b (int) = %d\n", b);
+    printf("a (int) = %d\n", a);
+  
     // Functions
     printf("\n-- Functions --\n");
     int sum = add(7, 5);
