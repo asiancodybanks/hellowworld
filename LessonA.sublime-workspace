@@ -1,0 +1,208 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prift",
+				"printf\tprintf …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kevin/Documents/coding/gambling.sublime_build",
+		"/C/Users/Kevin/Documents/coding/gamblingtest.c",
+		"/C/Users/Kevin/Dropbox/Kevin W_/influence reference thing, need help",
+		"/C/Users/Kevin/Dropbox/Kevin W_/MY ONE GOAL AND WHY",
+		"/C/Users/Kevin/Documents/music to do list",
+		"/C/Users/Kevin/Documents/songwriting.txt",
+		"/C/Users/Kevin/Documents/track editing list",
+		"/C/Users/Kevin/Documents/theory notes",
+		"/C/Users/Kevin/Documents/song composition",
+		"/C/Users/Kevin/Documents/hit song notes",
+		"/C/Users/Kevin/Downloads/GlitterInvitation 0.64/GlitterInvitation/Readme_EN.txt",
+		"/C/Users/Kevin/Documents/studio skills",
+		"/C/Users/Kevin/Documents/production terminology",
+		"/C/Users/Kevin/Documents/setting up vocal chains for pop",
+		"/C/Users/Kevin/Documents/making a living out of music",
+		"/C/Users/Kevin/Documents/helping vocalists",
+		"/C/Users/Kevin/AppData/Roaming/mpv/mpv.conf",
+		"/C/Users/Kevin/Downloads/7C91vAK1/7C91vAK1/7C91vAx.txt",
+		"/C/Users/Kevin/Downloads/GlitterInvitation 0.64/GlitterInvitation/Game/Addition/HowToAddTransrationFile.txt",
+		"/C/Users/Kevin/Downloads/LethalFantasy_Alpha_v9_1_0/CHEAT CODES.txt",
+		"/C/Users/Kevin/Downloads/Holosize - Part 2 (2.0.6)/Holosize - Part 2 (2.0.6)/README.txt",
+		"/C/Users/Kevin/Desktop/nowplaying.txt",
+		"/C/Users/Kevin/Downloads/Holosize - Part 2 (2.0.6)/Holosize - Part 2 (2.0.6)/Please read the instructions on saving the game before playing..txt",
+		"/C/Users/Kevin/Dropbox/Kevin W_/kevin personal journal",
+		"/C/Users/Kevin/Desktop/kevin personal journal",
+		"/C/ProjectIgnis/README.md.txt",
+		"/C/Users/Kevin/Downloads/VK-1 Viking Synthesizer 1.0.7d1/VK-1 Viking Synthesizer 1.0.7d1/README.txt",
+		"/C/Users/Kevin/Downloads/Land of the Giantesses (Extract this) v1.3/README + CREDITS.txt",
+		"/C/Games/Steam/steamapps/common/Skyrim Special Edition/LoGStartup",
+		"/C/Users/Kevin/Downloads/Land of the Giantesses (Extract this) v1.3/Land of the Giantesses (Standard) v1.3/Land of the Giantesses/Land of the Giantesses.esp",
+		"/C/Games/Steam/steamapps/common/Skyrim Special Edition/LoGStartup.txt",
+		"/C/Users/Kevin/Downloads/Land of the Giantesses (Extract this) v1.3/LoGStartup.vbs",
+		"/C/Users/Kevin/Downloads/LoGStartup",
+		"/C/Users/Kevin/Downloads/Land of the Giantesses (Extract this) v1.3/LoGStartup.txt",
+		"/C/Users/Kevin/Downloads/vocal mixing"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/C++/C Single File.sublime-build",
+	"project": "LessonA.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

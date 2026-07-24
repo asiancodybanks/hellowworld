@@ -36,12 +36,12 @@ int main() {
     variable, and 22 is the value of the variable. Also note, every line in C must
     end with a semicolon ";" to indicate the end of a line.
     */
-    int age = 22;                    // integer
-    float pi = 3.14159f;             // floating-point number
-    double price = 19.99;            // double-precision floating-point
-    bool isStudent = 1;             // boolean type from <stdbool.h>
-    char grade = 'A' + 10;                // single character
-    char *name = "Coder";    // string literal
+    int age = 22;                    // integer stores 32
+    float pi = 3.14159f;             // floating-point number stores 32
+    double price = 19.99;            // double-precision floating-point stores 64
+    bool isStudent = 1;             // boolean type from <stdbool.h> is only 8 bit (not 1, cause the smallest unit of a bit is 1 byte)
+    char grade = 'A' + 10;                // single character (a single letter, because it's only 8 bits, one byte!)
+    char *name = "Coder";    // string literal (a list of characters, word, sentence, paragraph)
 
     /**
      * Part 3: Using variables
@@ -53,6 +53,8 @@ int main() {
      * For example, the %d below stands for decimal (base-10), which allows us to print
      * the variable age with printf. Different data types have different format specificers,
      * as seen below.
+     * (\n is just a new line in the code, like an enter key for the output \n)
+     * 
      */
     printf("\n-- Data Types --\n");
     printf("age (int) = %d\n", age);
@@ -78,8 +80,8 @@ int main() {
      * as a single equal sign (=) represents ASSIGNMENT (as seen above), not COMPARISON.
      * 
      * We can also have branch paths by using "else if" and "else".
-     * else if uses a different condition, and it only runs if the above if statement is false.
-     * you can stack multiple "else if" in a row. "else" runs if all other if statements resolved
+     * else if uses a different condition, and it only runs supposing the above if statement is false.
+     * you can stack multiple "else if" in a row. "else" runs supposing all other if statements resolved
      * to false.
      */
     printf("\n-- If Statements --\n");
@@ -117,6 +119,9 @@ int main() {
     outside of the loop, then check inside the condition (countdown > 0), and finally, and the 
     end of the code, but inside the loop, we decrease "countdown" so that we may eventually
     exit the loop.
+    -- is a function in code is short hand for -1
+    ++ is a function in code short hand for +1
+    
     */
     printf("\n-- Loops --\n");
 
